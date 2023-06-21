@@ -4,7 +4,7 @@ from .forms import PostForm
 from django.utils import timezone
 
 def home(request):
-    posts = Posts.objects.all()
+    posts = Posts.objects.all().order_by('-published_date')
     form = PostForm
     return render(request, 'home.html', {'posts':posts, 'form':form})
 
