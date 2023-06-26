@@ -29,7 +29,7 @@ def create(request):
 
 def edit(request, id):
     posts = Posts.objects.get(id=id)
-    form =PostForm
+    form =PostForm(initial={'title': posts.title, 'description':posts.description})
     return render(request, 'edit.html', {'posts':posts, 'form':form})
 
 def update(request, id):

@@ -20,7 +20,7 @@ Home
 </style>
 {% endblock %}
 {% block content %}
-    <h1 class="text-primary d-flex justify-content-center"> Welcome to my Blog</h1>
+    <h1 class="text-dark d-flex justify-content-center"> Welcome to my Blog</h1>
     {% for post in posts %}
         <h3>{{ post.title  }}</h3>
         <p class="text-sm"> <a href="#"><small>{{ post.author }}</a> <i>{{ post.published_date }}</small></i> </p>
@@ -34,15 +34,14 @@ Home
     {% if user.is_authenticated %}
         <a class="btn-rounded btn btn-outline-dark"href="{% url 'create' %}">+</a>
     {% endif %}
-    <footer class=" px-5 py-10 ">
-        <ul class="flex justify-between items-center">
-            
-            <li>Django Blog &copy; 2023 </li>
-            <li> Blog Feito com Python (Django)</li>
-
-        </ul>
-        <div class =' px-1 py-2 text-sm flex justify-center'> 
+    <footer class="footer text-center">
+        <div class ='container'> 
+            <ul style="list-style-type: none;">
+                
+                <li>Blog Django &copy; 2023 </li>
+                <li> Feito com Python (Django)</li>
             <i> Desenvolvido por <a href="https://github.com/juanfranca" target="_blank">Juan França</a> </i>
+        </ul>
         </div>
     </footer>
 {% endblock %}
