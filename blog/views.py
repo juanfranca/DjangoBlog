@@ -28,9 +28,9 @@ def create(request):
     return render(request, 'create.html', {'form':form})
 
 def edit(request, id):
-    posts = Posts.objects.get(id=id)
-    form =PostForm(initial={'title': posts.title, 'description':posts.description})
-    return render(request, 'edit.html', {'posts':posts, 'form':form})
+    post = Posts.objects.get(id=id)
+    form =PostForm(initial={'title': post.title, 'description':post.description})
+    return render(request, 'edit.html', {'posts':post, 'form':form})
 
 def update(request, id):
     posts = Posts.objects.get(id=id)

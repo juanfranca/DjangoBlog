@@ -15,7 +15,8 @@
         </ul>
         <form class="d-flex" role="search">
           {% if user.is_authenticated %}
-            <h4 class="mx-2">Olá, {{ user.username }}</h4>
+            <h4 class="mx-2">
+              Olá, {{ user.username }} </h4>
             <button class="btn btn-outline-light mx-2" type="submit">Search</button>
             <a class="btn btn-outline-light" type="submit" href="{% url 'logout' %}">Sair</a>
           {% else %}
