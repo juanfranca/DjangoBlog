@@ -34,13 +34,5 @@ Home
     {% if user.is_authenticated %}
         <a class="btn-rounded btn btn-outline-dark"href="{% url 'create' %}">+</a>
     {% endif %}
-    <footer class="footer text-center">
-        <div class ='container'> 
-            <ul style="list-style-type: none;">
-                <li>Blog Django &copy; 2023 </li>
-                <li> Feito com Python (Django)</li>
-            <i> Desenvolvido por <a href="https://github.com/juanfranca" target="_blank">Juan França</a> </i>
-        </ul>
-        </div>
-    </footer>
+    
 {% endblock %}

@@ -9,11 +9,6 @@ def home(request):
     return render(request, 'home.html', {'posts':posts, 'form':form})
 
 
-def new(request):
-    posts = Posts.objects.all()
-    form = PostForm
-    return render(request, 'new_post.html', {'posts':posts, 'form':form})
-
 def create(request):
     if request.method == 'POST':
         form = PostForm(request.POST)
