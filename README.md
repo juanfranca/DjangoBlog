@@ -1,7 +1,7 @@
 # DjangoBlog 
 Projeto desenvolvido em Python por meio do framework Django, simulando um Blog.
 
-##Como instalar?
+## Como instalar?
 1.Clone o repositório: git clone https://github.com/juanfranca/DjangoBlog.git
 2.Navegue até o diretório: cd blog
 3.(Opcional) Crie e ative um ambiente virtual: python -m venv venv e source myenv/bin/activate
@@ -13,12 +13,12 @@ Projeto desenvolvido em Python por meio do framework Django, simulando um Blog.
 
 
 
-##Funcionalidades do Projeto
+## Funcionalidades do Projeto
 *Usuários podem se cadastrar no Blog fornecendo usuário e senha, login e logout
 *Criar, atualizar e deletar posts
 *Posts criados informam: Autor, hora e data de sua criação.
 *Posts ordenados pelo mais recente.
-##Tecnologias Utilizadas
+## Tecnologias Utilizadas
 <img src="https://img.icons8.com/?size=512&id=13441&format=png" alt="Python" width="50" height="50">
 <img src="https://img.icons8.com/?size=512&id=baihjTL3IBX9&format=png" alt="Django" width="50" height="50">
 <img src="https://img.icons8.com/?size=512&id=20909&format=png" alt="Python" width="50" height="50">
