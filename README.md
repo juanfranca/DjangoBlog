@@ -19,11 +19,11 @@ Projeto desenvolvido em Python por meio do framework Django, simulando um Blog.
 * Posts criados informam: Autor, hora e data de sua criação.
 * Posts ordenados pelo mais recente.
 ## Tecnologias Utilizadas
-<img src="https://img.icons8.com/?size=512&id=13441&format=png" alt="Python" width="50" height="50">
-<img src="https://img.icons8.com/?size=512&id=baihjTL3IBX9&format=png" alt="Django" width="50" height="50">
-<img src="https://img.icons8.com/?size=512&id=20909&format=png" alt="Python" width="50" height="50">
-<img src="https://img.icons8.com/?size=512&id=21278&format=png" alt="Python" width="50" height="50">
-<img src="https://icons8.com.br/icon/84710/bootstrap" alt="Bootstrap" width="50" height="50">
+<img src="https://img.icons8.com/?size=512&id=13441&format=png" alt="Python" width="50" height="50"> <img src="https://img.icons8.com/?size=512&id=baihjTL3IBX9&format=png" alt="Django" width="50" height="50"> <img src="https://img.icons8.com/?size=512&id=20909&format=png" alt="Python" width="50" height="50"> <img src="https://img.icons8.com/?size=512&id=21278&format=png" alt="Python" width="50" height="50"> <img src="https://icons8.com.br/icon/rF8HWpbMXJQS/bootstrap-a-free-and-open-source-css-framework" alt="Bootstrap" width="50" height="50">
+
+
+
+
 
 ### Autor
 [Juan França](https://www.linkedin.com/in/juan-fran%C3%A7a-9953511a4/)
